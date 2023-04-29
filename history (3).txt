@@ -1,0 +1,7 @@
+   0 vi /tmp/file.txt
+   1 cd /tmp
+   2 ls -la
+   3 cat file.txt 
+   4 chmod u-r,g+w,o+x /tmp/file.txt 
+   5 ls -la
+   6 history > history.txt | export_file history.txt
