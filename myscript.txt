@@ -1,0 +1,8 @@
+  1 #!/bin/bash
+  2
+  3 touch /tmp/Safonova_Galina.txt
+  4
+  5 date +"%H:%M:%S" >> /tmp/Safonova_Galina.txt
+  6
+  7 cat /etc/group | tail -3 | sed 's/user2/Safonova_Galina/' >> /tmp/Safonova_Galina.txt
+  8
